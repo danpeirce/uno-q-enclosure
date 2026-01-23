@@ -58,3 +58,45 @@ the Uno Q and a USB dongle as well as allow for convective movement of air past 
 	- Recommend printing this module in the orientation shown below with automatic supports and support placement everywhere.
 
 	  ![](img/ventedMount.png)
+
+6. **UNO-Q-cover.stl**
+	- This sub module provides a cover for the UNO-Q-mount2.stl module. It protects the Uno Q from mechanical damage while allowing air flow 
+	  and a window for the LED matrix.
+
+	![](img/UNO-Q-cover.png)
+
+## Blender Files
+
+The 3D models were designed primarily in Blender. Blender files of each module have been provided for easy modification. In addition the UNO-Q.blend file 
+provides a reference for the Uno Q board itself. 
+
+### UNO-Q.blend
+
+Arduino provides a 3D model of the Uno Q in the form of STEP files. This was converted to a Blend file. Texture files that provide some of the surface features 
+were created from images which have small distortions. The placement of the major components on the board are straight from the STEP file and they should be acurate. 
+Blender provided a quick and easy way to create the models as many dimensions do not need to be precise. I simply eyeballed many features relative to the Uno Q model.
+
+The image below shows the model of the Uno Q board between the top and bottom insert sub modules.
+
+![](img/blender-UnoQ.png)
+
+When the Blender files were created the units were not changed from 1 meter. This results in 1 meter in the blender file actually corresponding to 1 mm on the actual parts. 
+Note that when exported as STL files the scale is not saved. When the STL is opened in a slicer program one unit is generally assumed to be 1 mm so the scale correction is automatically 
+taken care of. Just be aware of this and if it is troubling to anyone they can easily rescale the models in Blender.
+
+#### Known Flaws in the UNO-Q Model
+
+* Portions of distorted texture maybe slightly shifted from the proper locations.
+* The inductor to the left of the LED matrix was not correct in shape or dimentions in the STEP model and this has not been corrected.
+* The 10 pin male header lacks the breakaway indents in the plastic of the actual part.
+* The female headers lack the printed legend that names the contact positions.
+
+## OpenSCAD Files
+
+The overall dimensions of the USB dongle needed to be precise so I created a box in OpenSCAD of the overall dimensions. That box was exported as an STL and brought then imported 
+into Blender. The edges of the box were rounded in Blender to aproximately match the reference images of the orthographic views of the dongle. Precision was not required for this 
+because the curves would be represended by segmented representations anyway and I was using flexible TPU which has some give.
+
+I also modeled the measured dimensions of the zip ties in OpenSCAD and added a small allowance for tolerance.
+
+The STL files exported from OpenSCAD have not been included in this repository as I thought they may just cause confusion. Those were only used in Blender and never printed.
