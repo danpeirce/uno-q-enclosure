@@ -1,5 +1,7 @@
 # Modular Enclosure for Arduino Uno Q
 
+Now also posted to thiniverse. See at [https://www.thingiverse.com/thing:7279865](https://www.thingiverse.com/thing:7279865)
+
 The Arduino Uno Q has one USB C port that can be used for power and data. An external USB dongle can be used to 
 breakout USB supported interfaces and power pass-through. This modular enclosure was designed to hold and protect both 
 the Uno Q and a USB dongle as well as allow for convective movement of air past these devices. 
@@ -13,7 +15,7 @@ the Uno Q and a USB dongle as well as allow for convective movement of air past 
 
 * The [USB dongle used](https://www.amazon.ca/dp/B0F9NHL23M?ref=ppx_yo2ov_dt_b_fed_asin_title).
     * Chosen for shape/dimensions that approximate the board and for the fact that it is relatively inexpensive. To date I have only tested it with a 
-	  flash drive and webcam. Not currently using the HDMI or Ethernet ports.
+	  flash drive, HDMI monitor and webcam. Not currently using the Ethernet port.
 
 	  ![](img/dongle.png)
 * The [zip ties used](https://www.amazon.ca/dp/B09362GP74?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_8&th=1)
@@ -87,17 +89,17 @@ taken care of. Just be aware of this and if it is troubling to anyone they can e
 #### Known Flaws in the UNO-Q Model
 
 * Portions of distorted texture maybe slightly shifted from the proper locations.
-* The inductor to the left of the LED matrix was not correct in shape or dimentions in the STEP model and this has not been corrected.
+* The inductor to the left of the LED matrix was not correct in shape or dimensions in the STEP model and this has not been corrected.
 * The 10 pin male header lacks the breakaway indents in the plastic of the actual part.
 * The female headers lack the printed legend that names the contact positions.
 
 ## OpenSCAD Files
 
 The overall dimensions of the USB dongle needed to be precise so I created a box in OpenSCAD of the overall dimensions. That box was exported as an STL and brought then imported 
-into Blender. The edges of the box were rounded in Blender to aproximately match the reference images of the orthographic views of the dongle. Precision was not required for this 
-because the curves would be represended by segmented representations anyway and I was using flexible TPU which has some give.
+into Blender. The edges of the box were rounded in Blender to approximately match the reference images of the orthographic views of the dongle. Precision was not required for this 
+because the curves would be represented by segmented representations anyway and I was using flexible TPU which has some give.
 
-I also modeled the measured dimensions of the zip ties in OpenSCAD and added a small allowance for tolerance.
+I also modelled the measured dimensions of the zip ties in OpenSCAD and added a small allowance for tolerance.
 
 The STL files exported from OpenSCAD have not been included in this repository as I thought they may just cause confusion. Those were only used in Blender and never printed.
 
