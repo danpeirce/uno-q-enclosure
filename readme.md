@@ -100,3 +100,8 @@ because the curves would be represended by segmented representations anyway and 
 I also modeled the measured dimensions of the zip ties in OpenSCAD and added a small allowance for tolerance.
 
 The STL files exported from OpenSCAD have not been included in this repository as I thought they may just cause confusion. Those were only used in Blender and never printed.
+
+## STL Viewer
+
+Some may not be aware that Github has a built in STL viewer. You can view STL files from the Github site before downloading anything simly by clicking 
+on the file name in the list at the very top of the page. The model can be rotated and zoomed.
