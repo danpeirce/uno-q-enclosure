@@ -28,6 +28,8 @@ the Uno Q and a USB dongle as well as allow for convective movement of air past 
 
 ![](img/UnoQ-enclosureCover.jpg)
 
+![](img/hanging2.jpg)
+
 1. **vents.stl** 
 	- This module was designed to hold the USB dongle. There are openings for various ports and for the USB C cable. There is one large openings
 	    through which the the USB dongle is inserted. There are also vent holes which allow air movement over the large flat surfaces of the dongle.
@@ -66,6 +68,12 @@ the Uno Q and a USB dongle as well as allow for convective movement of air past 
 	  and a window for the LED matrix.
 
 	![](img/UNO-Q-cover.png)
+	
+7. **hanger2.stl** (optional)
+	- This module provides space for airflow behind the USB dongle and provides mounting holes to mount the enclosure on a vertical surface.
+	- Recommend printing this module in the orientation shown below.
+	
+	![](img/hanger2.png)
 
 ## Blender Files
 
