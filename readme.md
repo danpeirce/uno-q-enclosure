@@ -51,7 +51,7 @@ the Uno Q and a USB dongle as well as allow for convective movement of air past 
 
 	  ![](img/insert3bottom.png)
 
-4. **insert3bottom.stl**
+4. **insert3top.stl**
 	- This sub module works together with insert3bottom.stl to position the Uno Q within vents.stl.
 	- Recommend printing this sub module in the orientation shown below with automatic supports.
 
