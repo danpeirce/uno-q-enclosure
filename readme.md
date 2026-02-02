@@ -46,13 +46,13 @@ the Uno Q and a USB dongle as well as allow for convective movement of air past 
 		![](img/UNO-Q-mount2.png)
 
 3. **insert3bottom.stl**
-	- This sub module works together with insert3top.stl to position the Uno Q within vents.stl.
+	- This sub module works together with insert3top.stl to position the Uno Q within UNO-Q-mount2.stl.
 	- Recommend printing this sub module in the orientation shown below with automatic supports.
 
 	  ![](img/insert3bottom.png)
 
 4. **insert3top.stl**
-	- This sub module works together with insert3bottom.stl to position the Uno Q within vents.stl.
+	- This sub module works together with insert3bottom.stl to position the Uno Q within UNO-Q-mount2.stl.
 	- Recommend printing this sub module in the orientation shown below with automatic supports.
 
 	  ![](img/insert3top.png)
@@ -70,7 +70,7 @@ the Uno Q and a USB dongle as well as allow for convective movement of air past 
 	![](img/UNO-Q-cover.png)
 	
 7. **hanger2.stl** (optional)
-	- This module provides space for airflow behind the USB dongle and provides mounting holes to mount the enclosure on a vertical surface.
+	- This module provides space for airflow behind the USB dongle and provides mounting holes to hang the enclosure from a specific utility rack.
 	- Recommend printing this module in the orientation shown below.
 	
 	![](img/hanger2.png)
